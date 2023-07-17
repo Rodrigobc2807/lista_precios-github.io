@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JyM Productos</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Producto que busca" id="busca">
+        <a class="waves-effect waves-light btn" id="boton">Cargar</a>
+    </div>
+    <div>
+        <table>
+            <colgroup>
+				<col style="width: 10%"/>
+				<col style="width: 30%"/>
+				<col style="width: 5%"/>
+				<col style="width: 10%"/>
+				<col style="width: 10%"/>
+				<col style="width: 10%"/>
+				<col style="width: 10%"/>
+				<col style="width: 5%"/>
+			</colgroup>
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                    <th>Iva</th>
+                    <th>Precio 1</th>
+                    <th>Precio 2</th>
+                    <th>Precio 3</th>
+                    <th>Cabys</th>
+                    <th>Cant</th>
+                </tr>
+            </thead>
+            <tbody id="res">
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="lista.js"></script>
+</body>
+
+</html>
